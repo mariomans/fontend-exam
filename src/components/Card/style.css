@@ -1,0 +1,22 @@
+p {
+    margin: 0;
+}
+
+.Card {
+    background: #6D6D73;
+    border-radius: 10px;
+}
+
+.Card__img {
+    text-align: center;
+    
+}
+
+.Card__name {   
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-family: fantasy;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
