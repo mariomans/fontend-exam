@@ -13,8 +13,9 @@ class Function1 extends Component {
 
     render() {
         var Calculate1 = 0;
-        const ExamdataJsx = Examdata.map((examdata, i) => {
-            if (examdata.is_editable_price === false) {
+        const ExamdataJsx = Examdata
+            .filter(examdata => examdata.is_editable_price === false)
+            .map((examdata, i) => {
                 const Calculate = examdata.products[0].weight;
                 Calculate1 = Calculate1 + Calculate;
                 return <div className="col-md-4" key={i}>
@@ -25,8 +26,7 @@ class Function1 extends Component {
                         </div>
                     </div>
                 </div>
-            }
-        })
+            })
 
         return (
             <div className="container">
