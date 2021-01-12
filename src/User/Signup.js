@@ -121,7 +121,7 @@ export default class Signup extends Component {
         const { firstname, lastname, email, password, confirmPassword, gender, error , loading} = this.state;
         return (
             <div className="container">
-                <h2 className="mt-5 mb-5">Signup</h2>
+                <h2 className="mt-5 mb-5">Test form and validation</h2>
 
                 <div className="alert alert-danger" style={{ display: error ? "" : 'none' }}>{error}</div>
                 
