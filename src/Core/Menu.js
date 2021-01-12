@@ -10,6 +10,15 @@ const Menu = () => (
             <li className="nav-item">
                 <Link className="nav-link" to="/Pokemon"> Pokemon </Link>
             </li>
+            <li className="nav-item">
+                <Link className="nav-link" to="/Function1"> Function1 </Link>
+            </li>
+            <li className="nav-item">
+                <Link className="nav-link" to="/Function2"> Function2 </Link>
+            </li>
+            <li className="nav-item">
+                <Link className="nav-link" to="/Function3"> Function3 </Link>
+            </li>
         </ul>
     </div>
 
